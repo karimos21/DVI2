@@ -2,7 +2,8 @@
 
 ### Vertex Clustering
 
-    Purpose: Reduces the number of vertices in a mesh by clustering them into a specified number of clusters.
+    Purpose: 
+        Reduces the number of vertices in a mesh by clustering them into a specified number of clusters.
     Method:
         Clustering: Uses KMeans clustering to group the vertices into target_count clusters.
         New Vertices: The cluster centers become the new vertices of the mesh.
@@ -11,7 +12,8 @@
 
 ### Edge Collapse
 
-    Purpose: Reduces the number of vertices in a mesh by iteratively collapsing the edges.
+    Purpose: 
+        Reduces the number of vertices in a mesh by iteratively collapsing the edges.
     Method:
         Priority Queue: Uses a priority queue to keep edges sorted by their collapse cost.
         Edge Collapse: Iteratively collapses edges with the lowest cost until the number of vertices is reduced to target_count.
